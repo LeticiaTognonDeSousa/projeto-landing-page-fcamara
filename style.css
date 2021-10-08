@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+  background: #ff6600;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background: #fffafa;
+  color: #1c1c1c;
+  margin: 40px;
+  margin-top: 20px;
+  border-radius: 30px 1px 30px 30px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.tema button {
+  align-seft: flex-end;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 30px 1px 30px 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+}
+
+.logo-fcamara {
+  border-radius: 30px 1px 30px 30px;
+  max-height: 160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mensagem {
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.paragrafo {
+  text-align: justify;
+}
+
+.info {
+  background: white;
+  color: #1c1c1c;
+  border-radius: 30px 1px 30px 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 20px;
+  text-align: justify;
+}
+
+.info-dois {
+  background: white;
+  color: #1c1c1c;
+  border-radius: 1px 30px 30px 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 40px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.imagem-um {
+  padding: 20px;
+  border-radius: 30px 1px 30px 30px;
+  margin-top: 10px;
+}
+
+.imagem-texto {
+  display: flex;
+  align-items: center;
+}
+
+.imagem-dois {
+  padding: 20px;
+  border-radius: 1px 30px 30px 30px;
+  margin-top: 10px;
+}
+
+.info-institucionais {
+  text-align: center;
+  font-size: 15px;
+}
+
+.midias-sociais {
+  text-align: center;
+  font-size: 15px;
+}
+
+.dark {
+  background: #ee7600;
+}
+
+.dark .logo-fcamara {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+}
+
+.dark .mensagem {
+  color: white;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .info {
+  background: #1c1c1c;
+  color: white;
+}
+
+.dark .info-dois {
+  background: #1c1c1c;
+  color: white;
+}
